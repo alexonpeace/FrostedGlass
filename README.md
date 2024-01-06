@@ -1,8 +1,10 @@
 # Frosted Glass
 
+A customized fork featuring subtle code modifications to showcase the FrostedGlass theme for Discord by [DiscordStyles](https://github.com/DiscordStyles/FrostedGlass).  
+It incorporates an Itachi Uchiha background and refines the window edges to optimize workspace for a more spacious experience.  
 Display your picture of choice with adjustable blur and brightness. Dark theme is required.
 
-![Server Chat](https://i.imgur.com/sUlg8ff.png)
+![Server Chat](https://i.imgur.com/Hx0ILbD.png)
 
 ## Download
 
