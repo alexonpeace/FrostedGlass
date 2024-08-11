@@ -1,5 +1,5 @@
 #app-mount {
-	.wrapper_bd2abe.minimum_ebf000 {
+	.wrapper_d880dc.minimum_d880dc {
 		background: var(--background-secondary);
 	}
 	.centerButton-3CaNcJ {
@@ -8,13 +8,17 @@
 			background: var(--foreground-double);
 		}
 	}
-	.controlButton_ab2899.leaveButton-2YnTyt {
+	.controlButton_b6e2f9.leaveButton-2YnTyt {
 		background: rgb(var(--discord-red), 0.5);
 		&:hover {
 			background: rgb(var(--discord-red));
 		}
 	}
-	.quickSelect_ae48d2 {
+	.quickSelect__540d0 {
 		margin-top: 10px;
+	}
+	// fixed embedded chat button
+	.chatButton_dd069c {
+    	right: 120px;
 	}
 }

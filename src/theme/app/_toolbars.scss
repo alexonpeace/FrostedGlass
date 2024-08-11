@@ -1,9 +1,22 @@
-#app-mount .title_b7d661 {
+#app-mount .title_a7d72e {
 	background: transparent;
-	.searchBar_e0c60b {
+	.searchBar_a46bef {
 		background: var(--background-secondary);
 	}
-	.children__32014::after {
+	.children_fc4f04::after {
 		content: none;
 	}
+}
+
+// Makes the top bar more easily grabbable
+.titleBar_a934d8  {
+	height: 20px !important;
+	-webkit-app-region: drag;
+	pointer-events: none;
+	top: 0;
+}
+
+//fixed the shit -lion
+.toolbar_fc4f04 {
+	margin-right: 100px;
 }
