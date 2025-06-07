@@ -1,10 +1,42 @@
-#app-mount .form_f75fb0 {
-	margin-top: 0;
-	.attachButton__0923f {
-		padding: 10px;
-	}
-	.placeholder__443e5,
-	.slateTextArea_ec4baf {
-		padding-left: 5px;
+@use '@discordstyles/classes' as *;
+
+#{cls('mount')} {
+	#{cls('chat.textbox.container')} {
+		margin-top: 0;
+
+		//FIXME: Find out what this is
+		.themedBackground__74017 {
+			background: transparent;
+		}
+
+		//#region Textbox
+		#{cls('chat.textbox.attach.button')} {
+			padding: 10px;
+		}
+
+		#{cls('chat.textbox.placeholder')},
+		#{cls('chat.textbox.slate')} {
+			padding-left: 5px;
+		}
+
+		#{cls('chat.textbox.channelTextarea')} {
+			background: var(--channeltextarea-background);
+			border: none;
+		}
+		//#endregion Textbox
+
+		//#region Attachments
+		#{cls('chat.bars.attachments.container')} {
+			background: transparent;
+		}
+
+		#{cls('chat.bars.attachments.item')} {
+			background-color: var(--foreground);
+		}
+
+		#{cls('chat.bars.attachments.actionBar')} {
+			background-color: var(--foreground);
+		}
+		//#endregion Attachments
 	}
 }
